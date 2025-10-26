@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-gqzd-v4$bebws&#p0l21!8o_*!ja@cm#3q*d#6-=8c(y1sle3_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # # CSRF Trusted Origins for Django 4+
 # CSRF_TRUSTED_ORIGINS = [
